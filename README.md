@@ -1,5 +1,8 @@
 # Flask-GetEnvValue
 
+[GitHub Actions Testing CI status](https://github.com/yukkeorg/Flask_GetEnvValue/actions/workflows/tests.yml/badge.svg)
+
+
 Loading a values from environment variable and set to `app.config`.
 
 
