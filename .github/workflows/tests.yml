@@ -26,5 +26,5 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m pip install --upgrade poetry pip
-      - run: poetry install --ascii
+      - run: poetry install --ansi
       - run: poetry run pytest
