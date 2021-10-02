@@ -24,7 +24,3 @@ class GetEnvValue:
             if self.protect_exists and envname in app.config:
                 continue
             app.config[envname] = value
-        app.teardown_appcontext(self.teardown)
-
-    def teardown(self, exception):
-        pass
